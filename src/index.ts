@@ -3,7 +3,7 @@ let númerosAMostrar: string | null = "";
 
 for (listadoNúmeros = 1; listadoNúmeros <= 100; listadoNúmeros++) {
   if (listadoNúmeros % 2 === 0 || listadoNúmeros % 3 === 0) {
-    númerosAMostrar = númerosAMostrar + listadoNúmeros + " ";
+    númerosAMostrar += listadoNúmeros + " ";
   }
 }
 console.log(númerosAMostrar);
